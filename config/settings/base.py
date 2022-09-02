@@ -79,7 +79,8 @@ THIRD_PARTY_APPS = [
 ]
 
 LOCAL_APPS = [
-    "djvideo.users",
+    "djvideo.content.apps.ContentConfig",
+    "djvideo.users.apps.UsersConfig",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
